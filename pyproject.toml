@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lte-quasibayes"
+version = "0.1.0"
+description = "Laplace-type (quasi-Bayesian) estimation via GPU-aware ensemble MCMC (Chernozhukov-Hong 2003)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ron" }]
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.21",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.5"]
+mode = ["scipy>=1.7"]
+dev = ["pytest>=7.0", "matplotlib>=3.5", "scipy>=1.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
