@@ -1,6 +1,6 @@
 """Reproduce Chernozhukov-Hong (2003) Example 1 (censored median regression).
 
-    python examples/run_censored_median.py --n 2000 --show
+    python examples/run_censored_median.py --n 200 --show
 """
 import argparse
 
