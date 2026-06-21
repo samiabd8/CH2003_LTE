@@ -128,11 +128,11 @@ Under inefficient weighting or misspecification, the
 quasi-posterior covariance needs a sandwich correction (Müller, 2013).
 
 
-## References & credits
+## References 
 
 - Chernozhukov, V. and Hong, H. (2003). An MCMC Approach to Classical
   Estimation. *Journal of Econometrics* 115(2), 293–346.
 - Müller, U. K. (2013). Risk of Bayesian Inference in Misspecified Models, and
   the Sandwich Covariance Matrix. *Econometrica* 81(5), 1805–1849.
 - Newey, W. and West, K. (1987). A simple, positive semi-definite, heteroskedasticity and autocorrelation consistent covariance matrix. *Econometrica*, 55(3), 703-708.
-- O'Hara, K. (2014). Chernozhukov-Hong [Computer software]. GitHub. https://github.com/kthohr/Chernozhukov-Hong
+- O'Hara, K. (2014). Chernozhukov-Hong [Computer software (R Code)]. GitHub. https://github.com/kthohr/Chernozhukov-Hong
