@@ -21,7 +21,7 @@ select CUDA automatically when a GPU is visible and falls back to CPU otherwise 
 pip install -e ".[dev]"      # torch + numpy, plus matplotlib/scipy/pytest
 ```
 
-`scipy` is optional (used only for the Nelder-Mead posterior-mode polish);
+`scipy` is optional (used only for the Nelder-Mead posterior-mode);
 `matplotlib` is optional (plots only).
 
 ## Quickstart
