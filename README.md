@@ -16,7 +16,7 @@ Why an ensemble? A single Markov chain must run sequentially (with each step dep
 so it cannot be sped up by a GPU. However, you can run many independent chains at the exact same time, as we do in this implementation. The scripts
 select CUDA automatically when a GPU is visible and falls back to CPU otherwise (identical procedures).
 
-This implementation is part of a larger project: one that seeks to extend Chernozhukov and Hong (2003) by replacing the MCMC algorithm with modern machine learning tools, in order to improve efficiency in high-dimensional settings. More details will be made available on my website: https://www.sabdurahman.com/
+This implementation is part of a larger project: one that seeks to extend Chernozhukov and Hong (2003) by replacing the MCMC algorithm with modern machine learning tools, in order to improve efficiency in high-dimensional settings. More details will be made available on my website: https://www.sabdurahman.com/, all errors in this repository are my own. 
 
 ## Install
 
