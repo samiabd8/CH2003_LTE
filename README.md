@@ -1,4 +1,4 @@
-# lte — Laplace-type (quasi-Bayesian) estimation via ensemble MCMC
+# Laplace-type (quasi-Bayesian) estimation via ensemble MCMC
 
 A Python/PyTorch implementation of the Chernozhukov–Hong (2003) Laplace-type
 estimator (LTE). Instead of optimizing a possibly non-smooth, non-convex
