@@ -5,7 +5,7 @@ estimator (LTE). Instead of optimizing a possibly non-smooth, non-convex
 extremum criterion, you **sample** the quasi-posterior
 
 ```
-p(theta) ∝ exp( L_n(theta) ) · prior(theta)
+p(θ) ∝ exp( L_n(θ) ) · prior(θ)
 ```
 
 with a (vectorized) **ensemble of random-walk Metropolis chains**, and report the
