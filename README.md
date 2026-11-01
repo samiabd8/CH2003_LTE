@@ -13,7 +13,9 @@ This implementation is part of a larger project: one that seeks to extend Cherno
 ## Install
 
 ```bash
-pip install -e ".[dev]"      # torch + numpy, plus matplotlib/scipy/pytest
+pip install lte-quasibayes                 # torch + numpy
+pip install "lte-quasibayes[plots,mode]"   # plus matplotlib and scipy
+pip install -e ".[dev]"                    # development: plus pytest
 ```
 
 `scipy` is optional (used only for the Nelder-Mead posterior-mode);
